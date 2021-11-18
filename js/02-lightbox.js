@@ -64,11 +64,12 @@ const openOriginal = function (event) {
     // });
     
     event.preventDefault();
-    gallery.addEventListener("click", openOriginal)
+  
     // if (event.target.nodeName !== 'IMG') return;
     // currentIndex = Number(event.target.dataset.index);
     // console.log(currentIndex);
     // setModalSrc(event.target.dataset.source);
     // instance.show();
 };
+gallery.addEventListener("click", openOriginal);
 
